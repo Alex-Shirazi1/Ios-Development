@@ -118,8 +118,8 @@
 				5C50982529763C7E00ACD85C /* Service */,
 				5C509819297460EA00ACD85C /* Files */,
 				5C5097E9297460E000ACD85C /* AppDelegate.swift */,
-				5C50981A297464CB00ACD85C /* List */,
-				5C50982A2976507400ACD85C /* ListingDetails */,
+				5C5098422976891900ACD85C /* List */,
+				5C509841297688ED00ACD85C /* ListingDetails */,
 			);
 			path = ViperPages;
 			sourceTree = "<group>";
@@ -151,18 +151,6 @@
 			name = Files;
 			sourceTree = "<group>";
 		};
-		5C50981A297464CB00ACD85C /* List */ = {
-			isa = PBXGroup;
-			children = (
-				5C50981B2974650000ACD85C /* List_View.swift */,
-				5C50981D2974651000ACD85C /* List_Interactor.swift */,
-				5C50981F2974651A00ACD85C /* List_Presenter.swift */,
-				5C5098232974653000ACD85C /* List_Entity.swift */,
-				5C5098212974652200ACD85C /* List_Router.swift */,
-			);
-			name = List;
-			sourceTree = "<group>";
-		};
 		5C50982529763C7E00ACD85C /* Service */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,7 +159,7 @@
 			name = Service;
 			sourceTree = "<group>";
 		};
-		5C50982A2976507400ACD85C /* ListingDetails */ = {
+		5C509841297688ED00ACD85C /* ListingDetails */ = {
 			isa = PBXGroup;
 			children = (
 				5C509833297650DC00ACD85C /* Listing_View.swift */,
@@ -180,7 +168,19 @@
 				5C509839297650F400ACD85C /* Listing_Entity.swift */,
 				5C50983B297650FD00ACD85C /* Listing_Router.swift */,
 			);
-			name = ListingDetails;
+			path = ListingDetails;
+			sourceTree = "<group>";
+		};
+		5C5098422976891900ACD85C /* List */ = {
+			isa = PBXGroup;
+			children = (
+				5C50981B2974650000ACD85C /* List_View.swift */,
+				5C50981D2974651000ACD85C /* List_Interactor.swift */,
+				5C50981F2974651A00ACD85C /* List_Presenter.swift */,
+				5C5098232974653000ACD85C /* List_Entity.swift */,
+				5C5098212974652200ACD85C /* List_Router.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
